@@ -1,0 +1,95 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Case Problem 2
+
+   CCC Calendar Table style sheet
+   Author: Shannon O'Donnell
+   Date:   10/07/2017
+
+   Filename:         calendar.css
+   Supporting Files: bottom.jpg, bottomleft.jpg, bottomright.jpg,
+                     left.jpg, right.jpg, top.jpg,
+                     tab.jpg, topleft.jpg, topright.jpg, redtab.jpg
+
+*/
+
+table {
+	padding: 40px;
+	font-size: 8px;
+	width:650px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: 	topleft.jpg, 
+						topright.jpg, 
+						bottomleft.jpg, 
+						bottomright.jpg, 
+						top.jpg, 
+						left.jpg, 
+						right.jpg, 
+						bottom,jpg;
+	background-repeat:	no-repeat,
+						no-repeat,
+						no-repeat,
+						no-repeat,
+						repeat-x,
+						repeat-y,
+						repeat-y,
+						repeat-x;
+	background-position:top left,
+						top right,
+						bottom left,
+						bottom right,
+						top,
+						right,
+						left,
+						bottom;
+}	
+
+caption {
+	display: table-caption;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 16px;
+	width: 650 px;
+	letter-spacing: 2px;
+	align: top;
+}
+
+td {
+	vertical-align: top;
+	font-size: 8px;
+	border: 1px solid gray;
+	border-spacing:5px;
+}
+
+col {
+	width: 14%;
+}
+
+col.weekends {
+	background-color: rgb(255, 232, 232);
+}
+
+th {
+	background-color: red;
+	color: white;
+	letter-spacing: 5px;
+}
+
+h3{
+	font-size:8px;
+}
+
+div {
+	column-count: 2;
+	column-width: 300px;
+	column-gap: 20px;
+	column-rule: 1px solid black;
+}
+
+
+
+

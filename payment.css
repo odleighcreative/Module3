@@ -1,0 +1,103 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Case Problem 2
+
+   The Spice Bowl Payment Form Style Sheet
+   Author: Shannon O'Donnell
+   Date:   10/08/2017
+
+   Filename:         payment.css
+   Supporting Files: go.png, stop.png
+
+*/
+fieldset {
+	border: none;
+	margin: 5px;
+}
+
+legend {
+	background-color: rgb(239, 198, 145);
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-indent: 20px;
+	width: 100%;
+	border-bottom-style: round;
+	border-radius: 10px;
+}
+
+label {
+	display: block;
+	float: left;
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 25%;
+}
+
+input{
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	width: 60%;
+	margin-top: 2px;
+	margin-bottom: 2 px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 2px;
+}
+
+div {
+	display: block;
+}
+
+textarea {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	height: 75px;
+	width: 60%;
+}
+
+optgroup {
+	margin-left: 25%;
+}
+
+.radio {
+	display: inline;
+	float: none;
+	width: 100px;
+}
+
+input[type="radio"] {
+	display: inline;
+	float: none;
+	margin: 0px;
+	width: 20px;
+}
+
+#csc {
+	width: 50px;
+}
+
+button {
+	background-color: rgb(239, 198, 145);
+	width: 150px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: round;
+	border-radius: 15px;
+}
